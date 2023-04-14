@@ -1,0 +1,6 @@
+1. If the users choose "Cancel" button, the MessageDialog will pop up and show the content "You have choosen No". 
+The reason is that the operator "?:" in the code tells the computer to print "YES" if and only if it is the YES_OPTION, and print "NO" in every other cases.
+Meanwhile "Cancel" is clearly not the YES_OPTION, so the computer will print "NO".
+2. To customize the options to users, simply chance the options "YES" and "NO" in the code to whatever the programmer wants.
+For example:
+(option==JOptionPane.YES_OPTION?"YES":"NO")   ->    (option==JOptionPane.YES_OPTION?"I do":"I don't")

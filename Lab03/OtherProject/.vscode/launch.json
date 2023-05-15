@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ConcatenationInLoops",
+            "request": "launch",
+            "mainClass": "hust.oop.garbage.ConcatenationInLoops",
+            "projectName": "OtherProject_4f774ca9"
+        },
+        {
+            "type": "java",
+            "name": "InputFromKeyboard",
+            "request": "launch",
+            "mainClass": "hust.oop.lab01.InputFromKeyboard",
+            "projectName": "OtherProject_4f774ca9"
+        },
+        {
+            "type": "java",
+            "name": "answer2_2_5",
+            "request": "launch",
+            "mainClass": "hust.oop.lab01.answer2_2_5",
+            "projectName": "OtherProject_4f774ca9"
+        },
+        {
+            "type": "java",
+            "name": "answer2_2_6",
+            "request": "launch",
+            "mainClass": "hust.oop.lab01.answer2_2_6",
+            "projectName": "OtherProject_4f774ca9"
+        },
+        {
+            "type": "java",
+            "name": "answer6_3",
+            "request": "launch",
+            "mainClass": "hust.oop.lab01.answer6_3",
+            "projectName": "OtherProject_4f774ca9"
+        },
+        {
+            "type": "java",
+            "name": "answer6_4",
+            "request": "launch",
+            "mainClass": "hust.oop.lab01.answer6_4",
+            "projectName": "OtherProject_4f774ca9"
+        },
+        {
+            "type": "java",
+            "name": "answer6_5",
+            "request": "launch",
+            "mainClass": "hust.oop.lab01.answer6_5",
+            "projectName": "OtherProject_4f774ca9"
+        },
+        {
+            "type": "java",
+            "name": "answer6_6",
+            "request": "launch",
+            "mainClass": "hust.oop.lab01.answer6_6",
+            "projectName": "OtherProject_4f774ca9"
+        }
+    ]
+}

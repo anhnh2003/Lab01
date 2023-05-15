@@ -1,0 +1,12 @@
+answer 3:
+    The title of the two objects still remains after the call of swap(jungleDVD, cinderellaDVD)
+    because Java is a pass-by-value language. 
+    This means that when you pass the objects jungleDVD and cinderellaDVD to the swap method, you are actually passing a copy of the references to these objects. 
+    The swap method then swaps the copies of these references, 
+    but this has no effect on the original references outside of the method.
+    On the other hand, the title of jungleDVD is changed after the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) 
+    because you are directly modifying the title attribute of the jungleDVD object by calling its setTitle method. 
+    This change is reflected outside of the method because you are modifying the actual object that the reference points to.
+    Because of this reason, it is not possible to write a swap method that directly swaps two objects by passing them as arguments to the method. 
+    However, there is a similar way to swap 2 object that is creating a new object called ObjectSwap and then swap it.
+    The implementation is written in method correctSwap in class TestPassingParameter.
